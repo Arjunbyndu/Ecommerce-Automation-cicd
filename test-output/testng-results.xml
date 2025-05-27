@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-27T10:44:00 IST" name="Suite" finished-at="2025-05-27T10:44:13 IST" duration-ms="12357">
+  <suite started-at="2025-05-27T12:04:03 IST" name="Suite" finished-at="2025-05-27T12:04:10 IST" duration-ms="6925">
     <groups>
     </groups>
-    <test started-at="2025-05-27T10:44:00 IST" name="Test" finished-at="2025-05-27T10:44:13 IST" duration-ms="12357">
+    <test started-at="2025-05-27T12:04:03 IST" name="Test" finished-at="2025-05-27T12:04:10 IST" duration-ms="6925">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T10:44:01 IST" name="setup" finished-at="2025-05-27T10:44:08 IST" duration-ms="6956" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T12:04:03 IST" name="setup" finished-at="2025-05-27T12:04:05 IST" duration-ms="1810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="InvalidLoginDetails(java.util.HashMap)[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T10:44:08 IST" name="InvalidLoginDetails" data-provider="jsondata" finished-at="2025-05-27T10:44:08 IST" duration-ms="526" status="PASS">
+        <test-method signature="InvalidLoginDetails(java.util.HashMap)[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T12:04:05 IST" name="InvalidLoginDetails" data-provider="jsondata" finished-at="2025-05-27T12:04:06 IST" duration-ms="775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidLoginDetails -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T10:44:08 IST" name="teardown" finished-at="2025-05-27T10:44:09 IST" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T12:04:06 IST" name="teardown" finished-at="2025-05-27T12:04:06 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T10:44:09 IST" name="setup" finished-at="2025-05-27T10:44:12 IST" duration-ms="3406" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T12:04:06 IST" name="setup" finished-at="2025-05-27T12:04:09 IST" duration-ms="3413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySuccessfulLogin(java.util.HashMap)[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T10:44:12 IST" name="verifySuccessfulLogin" data-provider="jsondata" finished-at="2025-05-27T10:44:12 IST" duration-ms="286" status="PASS">
+        <test-method signature="verifySuccessfulLogin(java.util.HashMap)[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T12:04:09 IST" name="verifySuccessfulLogin" data-provider="jsondata" finished-at="2025-05-27T12:04:09 IST" duration-ms="311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T10:44:12 IST" name="teardown" finished-at="2025-05-27T10:44:13 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@1b955cac]" started-at="2025-05-27T12:04:09 IST" name="teardown" finished-at="2025-05-27T12:04:10 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

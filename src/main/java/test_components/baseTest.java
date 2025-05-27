@@ -13,9 +13,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
@@ -68,14 +67,14 @@ public class baseTest {
 	}
 	
 	
-	@BeforeTest
+	@BeforeMethod
 	public void setup() throws IOException
 	{
 		driver = driverInitalizer();
 		driver.get("https://rahulshettyacademy.com/client/");
 	}
 	
-	@AfterTest
+	@AfterMethod
 	public void teardown()
 	{
 		if(driver != null )

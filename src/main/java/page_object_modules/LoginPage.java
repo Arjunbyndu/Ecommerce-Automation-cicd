@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import test_components.baseTest;
 import utilities.WaitsUtil;
 
-public class LoginPage extends WaitsUtil
+public class LoginPage extends WaitsUtil 
 {
 
 	WebDriver driver;
@@ -31,7 +31,7 @@ public class LoginPage extends WaitsUtil
 	// Actions 
 	public void loginApplication(String userEmail , String password) throws IOException
 	{
-		//setup();
+		
 		userEmailField.sendKeys(userEmail);
 		userPasswordField.sendKeys(password);
 		loginButton.click();
