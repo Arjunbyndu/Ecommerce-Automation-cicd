@@ -29,22 +29,7 @@ public class TestListeners extends baseTest implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		test.log(Status.PASS, "pass");
 		
-		// initalize driver to ss method
-				try {	
-				driver = (WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-		// setting path for screenshot
-				String path = null;
-				try 
-				{
-					 path = getScreenShot(result.getMethod().getMethodName() , driver);
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				test.addScreenCaptureFromPath(path, result.getMethod().getMethodName());
+		
 	}
 
 	@Override
