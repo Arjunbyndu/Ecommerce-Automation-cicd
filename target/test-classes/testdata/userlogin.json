@@ -1,0 +1,8 @@
+[
+{
+	"validUseremail" : "javaprogram56@gmail.com",
+	"ValidUserpwd" : "Java@1234",
+	"invalidUseremail" : "javaprogram@gmail.com",
+	"InvalidUserpwd" : "Java@12345"
+}
+]
